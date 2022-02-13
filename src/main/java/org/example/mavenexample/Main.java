@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         File file = new File("E:/read.txt");
-        File fileToWrite = new File("E:/write.txt");
+        File fileToWrite = new File("E:/write123.txt");
 
         IOUtils.copy(new FileInputStream(file), new FileOutputStream(fileToWrite));
 
