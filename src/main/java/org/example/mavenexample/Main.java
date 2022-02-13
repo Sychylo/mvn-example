@@ -12,7 +12,7 @@ public class Main {
 
         IOUtils.copy(new FileInputStream(file), new FileOutputStream(fileToWrite));
 
-        System.out.println("You can try to open file")
+        System.out.println("You can try to open file");
     }
 
 }
